@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forsage</title>
+	<meta name="discription" content="Leasons HTML">
+	<meta name="keywords" content="html, Lessons">
+	<link rel="stylesheet" href="assets/css/style.css"> 	
+
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff"> 	
+</head>
+
+<body>
+
+	<div class="main">
+		
+		<div class="header">
+			<div class="logo">
+				<div class="logo_text">
+					<h1><a href="index.html">KinoMonster</a></h1>
+					<h2>Cinema is our passion!</h2>
+				</div>
+			</div>
+			<div class="menubar">
+				<ul class="menu">
+					<li><a href="index.html">Main</a></li>
+					<li class="selected"><a href="films.html">Films</a></li>
+					<li><a href="serials.html">Serials</a></li>
+					<li><a href="rating.html">Rating</a></li>
+					<li><a href="kontakt.html">Contacts</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="siteContent">
+			<div class="siteBarConteiner">
+				
+				<div class="sidebar">
+					<h2>Search</h2>
+					<form method="post" action="#" id="search_form">
+						<input type="search" name="search_field" placeholder="your request" />
+						<input type="submit" class="btn" value="find"/>
+					</form>
+				</div>
+
+				<div class="sidebar">
+					<h2>Login</h2>
+					<form method="post" action="#" id="login">
+						<input type="text" name="login_field" placeholder="login"/>
+						<input type="password" name="password_field" placeholder="password"/>
+						<input type="submit" class="btn" value="Login">
+						<div class="lables_passreg_text">
+							<span><a href="#">forgot password?</a></span>  | <span><a href="#">registration</a></span>
+						</div>	
+
+					</form>
+				</div>
+
+				<div class="sidebar">
+					<h2>News</h2>
+					<span>18.12.2022</span>
+					<p>We have opened!</p>
+					<a href="#">read</a>
+				</div>
+
+				<div class="sidebar">
+					<h2>Movie Rating</h2>
+					<ul>
+						<li><a href="fors.html">Forsage</a><span class="rating_sidebar">6.7</span></li>
+						<li><a href="matrix.html">Matrix</a><span class="rating_sidebar">9.0</span></li>
+						<li><a href="spider.html">Spider-Man</a><span class="rating_sidebar">8.0</span></li>
+						<li><a href="malibu.html">Malibu Rescue</a><span class="rating_sidebar">9.7</span></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="content">
+				<h1>Forsage</h1>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Jjmr6cglHuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+				<div class="info_film_page">
+					<span class="label">rating: </span><span class="value">6.7 / 10</span>
+					<span class="label">year: </span><span class="value">2013</span>
+					<span class="label">director: </span><span class="value">Justin Lin</span>
+				</div>
+
+				<hr>
+				
+				<h2>Description</h2>
+
+				<div class="discription_film">
+					<img src="assets/img/for.jpg" alt="">
+					Dominic Toretto leads a quiet life, but he knows that new danger is always around. This time Dominic will have to face the ghosts of the past if he is to save those closest to him. The team comes together again to prevent a daring plan to take over the world by the most dangerous criminal and reckless driver.
+				</div>
+
+				<hr>
+				<h2>Reviews</h2>
+
+				<div class="reviews">
+					<div class="reviews_name">
+						Thomas
+					</div>
+
+					<div class="reviews_text">
+						Solid racing, the plot is built solely on the street competitions. I was bored(
+					</div>
+
+					<div class="reviews_name">
+						Paul
+					</div>
+
+					<div class="reviews_text">
+						Compared to the previous part, it didn't seem exciting enough to me. It didn't surprise me.
+					</div>
+				</div>
+
+				<div class="send">
+					
+					<form method="post" action="#" id="review">
+						<input type="text" name="review_name" placeholder="your name">
+						<textarea name="review_rext"></textarea>
+						<input type="submit" class="btn" value="Sending">
+					</form>
+
+
+
+				</div>
+
+			</div>
+		</div>
+
+	<div class="footer">
+		<p>
+			<a href="main.html">Main</a> |
+			<a href="films.html">Films</a> |
+			<a href="serials.html">Serials</a> |
+			<a href="rating.html">Rating</a> |
+			<a href="kontakt.html">Contacts</a> 
+		</p>
+		<p>Potapenko Production</p>
+	</div>
+
+	</div>
+
+</body>
+</html>

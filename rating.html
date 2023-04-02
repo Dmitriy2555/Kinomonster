@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rating</title>
+	<meta name="discription" content="Leasons HTML">
+	<meta name="keywords" content="html, Lessons">
+	<link rel="stylesheet" href="assets/css/style.css"> 
+
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff"> 		
+</head>
+
+<body>
+
+	<div class="main">
+		
+		<div class="header">
+			<div class="logo">
+				<div class="logo_text">
+					<h1><a href="index.html">KinoMonster</a></h1>
+					<h2>Cinema is our passion!</h2>
+				</div>
+			</div>
+			<div class="menubar">
+				<ul class="menu">
+					<li><a href="index.html">Main</a></li>
+					<li><a href="films.html">Films</a></li>
+					<li><a href="serials.html">Serials</a></li>
+					<li class="selected"><a href="rating.html">Rating</a></li>
+					<li><a href="kontakt.html">Contacts</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="siteContent">
+			<div class="siteBarConteiner">
+				
+				<div class="sidebar">
+					<h2>Search</h2>
+					<form method="post" action="#" id="search_form">
+						<input type="search" name="search_field" placeholder="your request" />
+						<input type="submit" class="btn" value="find"/>
+					</form>
+				</div>
+
+				<div class="sidebar">
+					<h2>Login</h2>
+					<form method="post" action="#" id="login">
+						<input type="text" name="login_field" placeholder="login"/>
+						<input type="password" name="password_field" placeholder="password"/>
+						<input type="submit" class="btn" value="Login">
+						<div class="lables_passreg_text">
+							<span><a href="#">forgot password?</a></span>  | <span><a href="#">registration</a></span>
+						</div>	
+
+					</form>
+				</div>
+
+				<div class="sidebar">
+					<h2>News</h2>
+					<span>18.12.2022</span>
+					<p>We have opened!</p>
+					<a href="#">read</a>
+				</div>
+
+				<div class="sidebar">
+					<h2>Movie Rating</h2>
+					<ul>
+						<li><a href="fors.html">Forsage</a><span class="rating_sidebar">6.7</span></li>
+						<li><a href="matrix.html">Matrix</a><span class="rating_sidebar">9.0</span></li>
+						<li><a href="spider.html">Spider-Man</a><span class="rating_sidebar">8.0</span></li>
+						<li><a href="malibu.html">Malibu Rescue</a><span class="rating_sidebar">9.7</span></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="content">
+				<table>
+					<tr class="header_of_table">
+						<th></th>
+						<th class="center">Film</th>
+						<th class="center">Year</th>
+						<th class="center">Score</th>
+					</tr>
+					<tr>
+						<td class="center"><img src="assets/img/malibu.jpg" alt=""></td>
+						<td class="center">1. <a href="malibu.html">Malibu Rescue</a></td>
+						<td class="center">2014</td>
+						<td class="center">9.7</td>
+					</tr>
+					<tr>
+						<td class="center"><img src="assets/img/matrix.png" alt=""></td>
+						<td class="center">2. <a href="matrix.html">Matrix</a></td>
+						<td class="center">1999</td>
+						<td class="center">9.0</td>
+					</tr>
+					<tr>
+						<td class="center"><img src="assets/img/spidy.jpg" alt=""></td>
+						<td class="center">3. <a href="spider.html">Spider-Man</a></td>
+						<td class="center">2002</td>
+						<td class="center">8.0</td>
+					</tr>
+					<tr>
+						<td class="center"><img src="assets/img/for.jpg" alt=""></td>
+						<td class="center">4. <a href="fors.html">Forsage</a></td>
+						<td class="center">2013</td>
+						<td class="center">6.7</td>
+					</tr>
+
+					<tr class="header_of_table">
+						<th></th>
+						<th class="center">Serial</th>
+						<th class="center">Year</th>
+						<th class="center">Score</th>
+					</tr>
+					<tr>
+						<td class="center"><img src="assets/img/fizruk.jpg" alt=""></td>
+						<td class="center">1. <a href="fizruk.html">Fizruk</a></td>
+						<td class="center">2014</td>
+						<td class="center">9.9</td>
+					</tr>
+					<tr>
+						<td class="center"><img src="assets/img/friends.jpg" alt=""></td>
+						<td class="center">2. <a href="friends.html">Friends</a></td>
+						<td class="center">2004</td>
+						<td class="center">8.5</td>
+					</tr>
+					<tr>
+						<td class="center"><img src="assets/img/luz.jpg" alt=""></td>
+						<td class="center">3. <a href="luz.html">Lucifer</a></td>
+						<td class="center">2016</td>
+						<td class="center">8.2</td>
+					</tr>
+					<tr>
+						<td class="center"><img src="assets/img/sexlife.jpg" alt=""></td>
+						<td class="center">4. <a href="sex.html">Sex/Life</a></td>
+						<td class="center">2021</td>
+						<td class="center">7.3</td>
+					</tr>
+				</table>
+
+			</div>
+		</div>
+
+	<div class="footer">
+		<p>
+			<a href="main.html">Main</a> |
+			<a href="films.html">Films</a> |
+			<a href="serials.html">Serials</a> |
+			<a href="rating.html">Rating</a> |
+			<a href="kontakt.html">Contacts</a> 
+		</p>
+		<p>Potapenko Production</p>
+	</div>
+
+	</div>
+
+</body>
+</html>
